@@ -13,9 +13,7 @@ function App() {
                     <p className='title'>Personal Digital Assistants</p>
                 </div>
             </section>
-            {/*<img src={AlexaImage}/>*/}
-            {/*<img src={CortanaImage}/>*/}
-            {/*<img src={SiriImage}/>*/}
+
             <div className="container">
                 <section className="section">
                     <div className="columns">
@@ -34,9 +32,6 @@ function App() {
                     </div>
                 </section>
             </div>
-            {/*<ProfileCard title= "Alexa" handle="@alexa99" image={AlexaImage}/>*/}
-            {/*<ProfileCard title="Cortana" handle="@cortana32" image={CortanaImage}/>*/}
-            {/*<ProfileCard title="Siri" handle="@siri01" image={SiriImage}/>*/}
         </div>
     )
 }
