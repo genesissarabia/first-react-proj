@@ -8,6 +8,7 @@ function ProfileCard({title, handle, image}){
     // directly in parameter for function****
     return (
     <div>
+        <img src={image}/>
         <div>Title is {title}</div>
         <div>Handle is {handle}</div>
     </div>
